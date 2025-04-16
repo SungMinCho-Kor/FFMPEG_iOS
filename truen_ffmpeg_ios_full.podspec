@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 공식 FFMPEG Kit의 지원이 중단되어 내부적으로 배포
+공식적인 사용 용도가 아닌 내부에서 고정적인 라이브러리로 사용하기 위한 용도
                        DESC
 
   s.homepage         = 'https://github.com/SungMinCho-Kor/FFMPEG_iOS'
