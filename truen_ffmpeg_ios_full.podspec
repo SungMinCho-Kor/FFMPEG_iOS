@@ -13,14 +13,11 @@ Pod::Spec.new do |s|
   s.author           = { 'csm654' => 'csm654@truen.co.kr' }
   s.source           = { :git => 'https://github.com/SungMinCho-Kor/FFMPEG_iOS.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '12.1'
+  s.ios.deployment_target = '12.0'
   s.swift_version = '5.0'
 #  s.requires_arc = true
 
   s.libraries = ["z", "bz2", "c++", "iconv"]
-
-  s.source = { :git => "https://github.com/SungMinCho-Kor/FFMPEG_iOS.git", :tag => "6.0.LTS" }
-
   s.frameworks = 'AudioToolbox', 'AVFoundation', 'CoreMedia', 'VideoToolbox'
   s.ios.vendored_frameworks = [
     "Frameworks/ffmpegkit.xcframework",
