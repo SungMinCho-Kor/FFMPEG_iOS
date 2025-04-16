@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'truen_ffmpeg_ios_full'
-  s.version          = '6.0.LTS'
+  s.version          = '6.0.0-LTS'
   s.summary          = 'FFMPEG 6.0.LTS iOS Full for EGLOO'
 
   s.description      = <<-DESC
